@@ -5,6 +5,7 @@
 const primeiroTexto: string = prompt("Digite o primeiro número:") ?? "0";
 const segundoTexto: string = prompt("Digite o segundo número:") ?? "0";
 
+// transforma os valores recebidos acima em números
 const primeiro: number = Number(primeiroTexto);
 const segundo: number = Number(segundoTexto);
 
